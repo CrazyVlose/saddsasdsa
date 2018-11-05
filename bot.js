@@ -304,19 +304,19 @@ client.on("message", message => {
       .setDescription(`
              **:robot:  Bot Command:robot:** 
 	**
-        -clear = لمسح الشات
-	-move  = لسحب العضو الى الروم
-	-ban   = لطرد العضو من السيرفر
-	-mute  = لاسكات العضو
-        -unmute = لرفع الإسكات عن العضو
-        -role  = لإعطاء عضو رتبة
-        -removeRole = لسحب الرتبة من العضو
-        -avatar  = لإظهار صورة شخص او صورتك
-        -image   = لإظهار صورة السيرفر
-        -mutechannel = لإغلاق الشات 
-        -unmutechannel = لفتح الشات
-        -voiceonline = لتفعيل خاصية عداد الاشخاص
-        -bc = رسالة جماعيه
+        :pen_ballpoint: -clear = لمسح الشات
+	:white_check_mark: -move  = لسحب العضو الى الروم
+	:octagonal_sign: -ban   = لطرد العضو من السيرفر
+	:zipper_mouth: -mute  = لاسكات العضو
+        :grinning: -unmute = لرفع الإسكات عن العضو
+        :red_circle: -role  = لإعطاء عضو رتبة
+        :black_circle: -removeRole = لسحب الرتبة من العضو
+        :cinema: -avatar  = لإظهار صورة شخص او صورتك
+        :beginner: -image   = لإظهار صورة السيرفر
+        :o: -mutechannel = لإغلاق الشات 
+        :x: -unmutechannel = لفتح الشات
+        :microphone2: -voiceonline = لتفعيل خاصية عداد الاشخاص
+        :calling: -bc = رسالة جماعيه
   **
 **:rose: نتمنا لكم اسعد الأوقات :rose: **
  `)
