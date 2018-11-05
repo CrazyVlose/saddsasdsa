@@ -219,7 +219,7 @@ message.react("?")
  }}});
  
  client.on("message", message => {
-    const prefix = "!"
+    const prefix = "-"
               
           if(!message.channel.guild) return;
    if(message.author.bot) return;
@@ -238,7 +238,7 @@ message.react("?")
   });
   
   client.on('message', message => {
-    if (message.content.startsWith("!avatar")) {
+    if (message.content.startsWith("-avatar")) {
 if(!message.channel.guild) return;
         var mentionned = message.mentions.users.first();
     var client;
@@ -302,21 +302,23 @@ client.on("message", message => {
   const embed = new Discord.RichEmbed() 
       .setColor("#000000")
       .setDescription(`
-             :robot:  Bot Command:robot: 
-	-clear = لمسح الشات
+             **:robot:  Bot Command:robot: 
+	**
+        -clear = لمسح الشات
 	-move  = لسحب العضو الى الروم
 	-ban   = لطرد العضو من السيرفر
 	-mute  = لاسكات العضو
-   -unmute = لرفع الإسكات عن العضو
-    -role  = لإعطاء عضو رتبة
-  -removeRole = لسحب الرتبة من العضو
-  -avatar  = لإظهار صورة شخص او صورتك
-  -image   = لإظهار صورة السيرفر
-  -mutechannel = لإغلاق الشات 
-  -unmutechannel = لفتح الشات
-  -voiceonline = لتفعيل خاصية عداد الاشخاص
-  -bc = رسالة جماعيه
-  **:rose: نتمنا لكم اسعد الأوقات :rose: **
+        -unmute = لرفع الإسكات عن العضو
+        -role  = لإعطاء عضو رتبة
+        -removeRole = لسحب الرتبة من العضو
+        -avatar  = لإظهار صورة شخص او صورتك
+        -image   = لإظهار صورة السيرفر
+        -mutechannel = لإغلاق الشات 
+        -unmutechannel = لفتح الشات
+        -voiceonline = لتفعيل خاصية عداد الاشخاص
+        -bc = رسالة جماعيه
+  **
+**:rose: نتمنا لكم اسعد الأوقات :rose: **
  `)
    message.author.sendEmbed(embed)
     
