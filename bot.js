@@ -302,7 +302,7 @@ client.on("message", message => {
   const embed = new Discord.RichEmbed() 
       .setColor("#000000")
       .setDescription(`
-             **:robot:  Bot Command:robot: 
+             **:robot:  Bot Command:robot:** 
 	**
         -clear = لمسح الشات
 	-move  = لسحب العضو الى الروم
